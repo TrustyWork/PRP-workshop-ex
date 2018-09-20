@@ -1,0 +1,49 @@
+.content {
+    width: 760px;
+    margin: 0 auto; 
+}
+.title-sep-line {
+    width: 50px;
+    height: 1px;
+    background-color: yellow;
+}
+.primary-btn {
+    background-color: yellow;
+}
+body > header {
+    height: 45px;
+    position: absolute;
+    width: 100%;
+}
+body > header .line {
+    height: 3px;
+    background-color: #acacac;
+    opacity: 0.2;
+    width: 80%;
+    margin: 0 auto;
+}
+body > header .content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+body > header .menu {
+    display: flex;
+}
+body > header a {
+    height: 100%;
+    color: #acacac;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+section.welcome {
+    height: 450px;
+    background-image: url('https://pbs.twimg.com/media/DfFsv-DWsAEGFgO.jpg');
+    background-size: cover;
+    padding-top: 45px;
+    box-sizing: border-box;
+    color: #acacac;
+}
